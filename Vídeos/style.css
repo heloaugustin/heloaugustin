@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Merienda:wght@300..900&display=swap');
+
+:root{ 
+    --cor-da-letra:white;
+    --cor-de-fundo:#360e6b;
+    --fundo-senha:#42024e;
+    --fundo-texto:#8361bb;
+    --borda: #580a6b;
+    --fonte:"Edu TAS Beginner", cursive;
+}
+
+body{
+    color:var(--cor-da-letra);
+    background-color:var(--cor-de-fundo);
+    font-family:var(--fonte);
+}
+
+.titulo principal{
+    font-size:130px;
+    font-family:var(--fonte 2);
+}
+
+.titulo-secundário{
+    font-size:50px;
+}
+.conteudo-titulo{
+    text-align:center;
+    margin-top:90px;
+}
+
+.conteudo-senha{
+    margin-top:60px;
+    background:var(--fundo-senha);
+    padding:15px;
+    border-botton:50px solid var(--borda);
+}
+
+#campo-senha{
+    background-color:aqua(--fundo-senha);
+    border:none;
+    color:aquamarine(--letra);
+    width:26%;
+}
+
+.img{
+    width: 20%;
+}
